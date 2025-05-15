@@ -1,0 +1,114 @@
+Created myInt
+Created myStr
+Created myCplx
+Selected myInt
+Inserted 50
+Inserted 20
+Inserted 70
+Inserted 10
+Inserted 30
+Inserted 60
+Inserted 80
+Inserted 25
+Inserted 5
+Inserted 35
+Inserted 65
+Inserted 75
+Inserted 85
+
+       50        
+      /  \       
+   20       70    
+  /  \     /  \   
+ 10   30   60   80  
+/    /  \    \ /  \ 
+5   25 35   65 75 85 
+
+Found 65
+Not found 100
+Removed 20
+Removed 5
+Removed 85
+
+       50        
+      /  \       
+   25       70    
+  /  \     /  \   
+ 10   30   60   80  
+        \    \ /    
+      35   65 75   
+
+Balanced
+
+       50        
+      /  \       
+   25       70    
+  /  \     /  \   
+ 10   30   60   75  
+        \    \    \ 
+      35   65   80 
+
+Unknown command
+30
+Selected myStr
+Inserted apple
+Inserted banana
+Inserted cherry
+Inserted dewberry
+Inserted elderberry
+
+               apple                
+                 \               
+                       banana        
+                          \       
+                           cherry    
+                                \   
+                             dewberry  
+                                      \ 
+                              elderberry 
+
+Removed banana
+
+       apple        
+         \       
+           cherry    
+              \   
+             dewberry  
+                  \ 
+              elderberry 
+
+Selected myCplx
+Inserted 3+4i
+Inserted 1-2i
+Inserted -1+1i
+Inserted 0+5i
+Inserted 2+0i
+Inserted -3-3i
+
+       3+4i        
+      /          
+   1-2i            
+  /  \            
+ -1+1i   0+5i          
+   \ /              
+  2+0i -3-3i           
+
+Found 1-2i
+Removed 0+5i
+
+       3+4i        
+      /          
+   1-2i            
+  /  \            
+ -1+1i   -3-3i          
+   \                
+  2+0i             
+
+Balanced
+
+   1-2i    
+  /  \   
+ -1+1i   -3-3i  
+   \    \ 
+  2+0i   3+4i 
+
